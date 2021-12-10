@@ -1,6 +1,11 @@
 let scatola = document.getElementById("container");
 
 for(let i = 1; i <= 100; i++){
-    console.log('iterazione: ', i);
-    scatola.innerHTML += '<div class=box square' + i + '</div>';
+    if(i%3 == 0){ //multipli di 3
+        scatola.innerHTML += '<div class=box multipli-di-tre' + i + '</div>';
+    }
+    else{
+        console.log('iterazione: ', i);
+        scatola.innerHTML += '<div class=box square' + i + '</div>';
+    }
 }
