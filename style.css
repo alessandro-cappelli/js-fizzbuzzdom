@@ -28,10 +28,12 @@ h1{
     margin: 10px;
 }
 
-.p{
-    background-color: red;
+.box-3{
+    background-color:darkorange;
     height: 100px;
     width: 100px;
+    display: inline-block;
+    margin: 10px;
 
 
 }
