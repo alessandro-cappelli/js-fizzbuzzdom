@@ -34,6 +34,12 @@ h1{
     width: 100px;
     display: inline-block;
     margin: 10px;
+}
 
-
+.boxs-3{
+    background-color:darkkhaki;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
 }
