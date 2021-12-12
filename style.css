@@ -36,7 +36,15 @@ h1{
     margin: 10px;
 }
 
-.boxs-3{
+.box-5{
+    background-color:darksalmon;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.box-3-5{
     background-color:darkkhaki;
     height: 100px;
     width: 100px;
